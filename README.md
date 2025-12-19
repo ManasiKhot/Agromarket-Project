@@ -1,21 +1,86 @@
 
-# React + Vite
+🌱 AgroMarket - Farmer to Buyer Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AgroMarket is a full-stack web application designed to bridge the gap between farmers and consumers. By eliminating intermediaries (middlemen), the platform ensures farmers get fair prices for their produce while buyers receive fresh, transparently sourced agricultural products at competitive rates.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🧑‍🌾 For Farmers
 
-## React Compiler
+Dedicated Dashboard: A secure panel to manage product listings.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Inventory Management: Add, Update, and Delete produce with details like Name, Price, Quantity, and Images.
 
-## Expanding the ESLint configuration
+Transparency: Display personal details (Name, Location, Contact Number) directly to buyers.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Agromarket-Project
-Engineered a full-stack web platform to connect farmers directly with buyers, aiming to eliminate middlemen and improve price transparency. Built a feature-rich application including user authentication, product listing, inventory management, and an order processing system using React.js and Spring Boot.
->>>>>>> cd960ce7864ccd7afa2c3c1196a5b7f1407df8eb
+Pricing Control: Set "Actual Price" and "Discount Price" to attract customers.
+
+🛒 For Buyers
+
+Browse & Search: View all available produce with advanced filtering (Category, Price Range, Search Keyword).
+
+Product Details: View detailed product information, stock status, and farmer location.
+
+Direct Contact: "Call Farmer" button to negotiate or inquire directly without middlemen.
+
+Shopping Cart: Add items to a global cart, adjust quantities, and view the total bill.
+
+Secure Checkout: Place orders which are saved to the database.
+
+🔐 General Features
+
+Role-Based Authentication: Secure Login/Registration for Farmers and Buyers using Spring Security.
+
+Responsive Design: Fully optimized for Mobile, Tablet, and Desktop using Tailwind CSS.
+
+Real-time Updates: Instant UI updates without page reloads (Single Page Application).
+
+🛠️ Technology Stack
+
+Layer
+
+Technology
+
+Description
+
+Frontend
+
+React.js (Vite)
+
+Fast, component-based UI library.
+
+Styling
+
+Tailwind CSS
+
+Utility-first CSS framework for responsive design.
+
+State Mgmt
+
+Context API
+
+For managing Auth state and Shopping Cart.
+
+Backend
+
+Spring Boot
+
+robust Java-based framework for REST APIs.
+
+Security
+
+Spring Security
+
+For Password Hashing (BCrypt) and Auth.
+
+Database
+
+MySQL
+
+Relational database for Data Consistency.
+
+ORM
+
+Hibernate / JPA
+
+For mapping Java Objects to Database Tables.
