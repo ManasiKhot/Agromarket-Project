@@ -2,9 +2,9 @@
 
 AgroMarket is a full-stack web application designed to bridge the gap between farmers and consumers. By eliminating intermediaries (middlemen), the platform ensures farmers get fair prices for their produce while buyers receive fresh, transparently sourced agricultural products at competitive rates.
 
-Features
+Features:
 
-For Farmers
+1. For Farmers
 
 Dedicated Dashboard: A secure panel to manage product listings.
 
@@ -14,7 +14,7 @@ Transparency: Display personal details (Name, Location, Contact Number) directly
 
 Pricing Control: Set "Actual Price" and "Discount Price" to attract customers.
 
-For Buyers
+2. For Buyers
 
 Browse & Search: View all available produce with advanced filtering (Category, Price Range, Search Keyword).
 
@@ -26,35 +26,12 @@ Shopping Cart: Add items to a global cart, adjust quantities, and view the total
 
 Secure Checkout: Place orders which are saved to the database.
 
-🔐 General Features
+General Features:
 
 Role-Based Authentication: Secure Login/Registration for Farmers and Buyers using Spring Security.
 
 Responsive Design: Fully optimized for Mobile, Tablet, and Desktop using Tailwind CSS.
 
 Real-time Updates: Instant UI updates without page reloads (Single Page Application).
-
-🛠️ Technology Stack
-Frontend
-React.js (Vite)
-
-Styling
-Tailwind CSS
-
-State Mgmt
-Context API
-
-Backend
-Spring Boot
-
-Security
-Spring Security
-
-Database
-MySQL
-
-
-ORM
-Hibernate / JPA
 
 
